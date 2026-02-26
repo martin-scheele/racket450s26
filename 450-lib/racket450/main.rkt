@@ -8,6 +8,7 @@
                         racket/match
                         racket/format
                         racket/string
+                        racket/random
                         racket/contract
                         racket/function
                         lang/htdp-advanced
@@ -35,6 +36,7 @@
          racket/match
          racket/format
          racket/string
+         racket/random
          racket/contract
          racket/function
          rackunit
