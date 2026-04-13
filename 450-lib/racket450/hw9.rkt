@@ -130,7 +130,7 @@
   (->* (Array? Array?) (#:array-elt+ (-> Atom? Atom? Atom?)) Array?)
   (cond
     [(and (Atom? a1) (Atom? a2)) (array-elt+ a1 a2)]
-    [else (arraylist+ a1 a2)]))
+    [else (arraylist+ a1 a2 #:array-elt+ array-elt+)]))
 
 ;; outputs "rest" of a1, unless it has 1 dim and a2 doesnt
 ;; (compatibility comes from NumPy + algorithm)
