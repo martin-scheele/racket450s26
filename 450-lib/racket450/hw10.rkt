@@ -14,6 +14,8 @@
          (rename-out
           [Atom? hw10-Atom?]
           [ErrorResult? hw10-ErrorResult?]
+          [undefined-var-err mk-undefined-var-err]
+          [not-fn-err mk-not-fn-err]
           [Array? hw10-Array?]
           [mk-Slice/testing hw10-mk-Slice]
           [Slice? hw10-Slice?]
